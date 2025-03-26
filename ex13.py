@@ -1,4 +1,4 @@
-people = 3
+people = 25
 oldPeople = 0
 newHeightSum = 0
 youngPeople = 0
