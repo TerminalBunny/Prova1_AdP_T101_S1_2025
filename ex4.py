@@ -1,0 +1,5 @@
+hourValue = float(input("Valor da hora/aula: "))
+classesLectioned = float(input("Quantidade de aulas lecionadas no mês: "))
+discount = float(input("Desconto (%) do INSS: "))
+salary = (hourValue*classesLectioned)*(1-(discount/100))
+print(f"Salário Líquido: R${salary:.2f}")
